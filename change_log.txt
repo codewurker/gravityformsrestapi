@@ -1,0 +1,13 @@
+---------------------------------------------------------------------
+Version 2.0-beta-2
+    - Added support for optional labels to the GET /entries endpoint.
+    - Added support for entry trashing. Entries can only be deleted by sending the force param.
+    - Added support for form trashing. Forms can only be deleted by sending the force param.
+    - Changed the POST, PUT and DELETE endpoints for forms and entries to return the form/entry on success.
+    - Fixed an issue with PUT /entries/[ID].
+    - Removed the PUT /entries endpoint. Use PUT /entries/[ID] instead.
+    - Removed authentication. Use WordPress REST API authentication instead.
+
+---------------------------------------------------------------------
+Version 2.0-beta-1
+    - All new
